@@ -10,86 +10,86 @@
 
 > Follow me on [X](https://x.com/DevBySami).
 
-An Application that automates the process of making money online.
-MPV2 (MoneyPrinter Version 2) is, as the name suggests, the second version of the MoneyPrinter project. It is a complete rewrite of the original project, with a focus on a wider range of features and a more modular architecture.
+Um aplicativo que automatiza o processo de ganhar dinheiro online.  
+MPV2 (MoneyPrinter Versão 2) é, como o nome sugere, a segunda versão do projeto MoneyPrinter. É uma reescrita completa do projeto original, com foco em uma gama mais ampla de recursos e uma arquitetura mais modular.
 
-> **Note:** MPV2 needs Python 3.9 to function effectively.
-> Watch the YouTube video [here](https://youtu.be/wAZ_ZSuIqfk)
+> **Nota:** MPV2 precisa do Python 3.9 para funcionar corretamente.
+> Assista ao vídeo no YouTube [aqui](https://youtu.be/wAZ_ZSuIqfk)
 
-## Features
+## Funcionalidades
 
-- [x] Twitter Bot (with CRON Jobs => `scheduler`)
-- [x] YouTube Shorts Automater (with CRON Jobs => `scheduler`)
-- [x] Affiliate Marketing (Amazon + Twitter)
-- [x] Find local businesses & cold outreach
+- [x] Bot do Twitter (com CRON Jobs => `scheduler`)
+- [x] Automatizador de Shorts do YouTube (com CRON Jobs => `scheduler`)
+- [x] Marketing de Afiliados (Amazon + Twitter)
+- [x] Encontrar empresas locais & prospecção a frio
 
-## Versions
+## Versões
 
-MoneyPrinter has different versions for multiple languages developed by the community for the community. Here are some known versions:
-- Chinese: [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
+O MoneyPrinter tem diferentes versões para múltiplos idiomas, desenvolvidas pela comunidade para a comunidade. Aqui estão algumas versões conhecidas:
+- Chinesa: [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
 
-If you would like to submit your own version/fork of MoneyPrinter, please open an issue describing the changes you made to the fork.
+Se você quiser enviar sua própria versão/fork do MoneyPrinter, abra uma issue descrevendo as alterações feitas no fork.
 
-## Installation
+## Instalação
 
-Please install [Microsoft Visual C++ build tools](https://visualstudio.microsoft.com/de/visual-cpp-build-tools/) first, so that CoquiTTS can function correctly.
+Por favor, instale primeiro o [Microsoft Visual C++ build tools](https://visualstudio.microsoft.com/de/visual-cpp-build-tools/) para que o CoquiTTS funcione corretamente.
 
-> ⚠️ If you are planning to reach out to scraped businesses per E-Mail, please first install the [Go Programming Language](https://golang.org/).
+> ⚠️Se você pretende entrar em contato com empresas coletadas por e-mail, instale primeiro a [Linguagem de Programação Go](https://golang.org/).
 
 ```bash
 git clone https://github.com/FujiwaraChoki/MoneyPrinterV2.git
 
 cd MoneyPrinterV2
-# Copy Example Configuration and fill out values in config.json
+# Copiar configuração de exemplo e preencher valores em config.json
 cp config.example.json config.json
 
-# Create a virtual environment
+# Criar um ambiente virtual
 python -m venv venv
 
-# Activate the virtual environment - Windows
+# Ativar o ambiente virtual - Windows
 .\venv\Scripts\activate
 
-# Activate the virtual environment - Unix
+# Ativar o ambiente virtual - Unix
 source venv/bin/activate
 
-# Install the requirements
+# Instalar os requisitos
 pip install -r requirements.txt
 ```
 
-## Usage
+## Uso
 
 ```bash
-# Run the application
+# Executar o aplicativo
 python src/main.py
 ```
 
-## Documentation
+## Documentação
 
-All relevant document can be found [here](docs/).
+Todos os documentos relevantes podem ser encontrados [aqui](docs/).
 
 ## Scripts
 
-For easier usage, there are some scripts in the `scripts` directory, that can be used to directly access the core functionality of MPV2, without the need of user interaction.
+Para facilitar o uso, existem alguns scripts no diretório `scripts` que podem ser usados para acessar diretamente a funcionalidade principal do MPV2, sem a necessidade de interação do usuário.
 
-All scripts need to be run from the root directory of the project, e.g. `bash scripts/upload_video.sh`.
+Todos os scripts devem ser executados a partir do diretório raiz do projeto, por exemplo: `bash scripts/upload_video.sh`.
 
-## Contributing
+## Contribuindo
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us. Check out [docs/Roadmap.md](docs/Roadmap.md) for a list of features that need to be implemented.
+Por favor, leia o [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes sobre nosso código de conduta e o processo de envio de pull requests. Confira [docs/Roadmap.md](docs/Roadmap.md) para uma lista de funcionalidades que precisam ser implementadas.
 
-## Code of Conduct
+## Código de Conduta
 
-Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Por favor, leia o [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) para detalhes sobre nosso código de conduta e o processo de envio de pull requests.
 
-## License
+## Licença
 
-MoneyPrinterV2 is licensed under `Affero General Public License v3.0`. See [LICENSE](LICENSE) for more information.
+MoneyPrinterV2 está licenciado sob `Affero General Public License v3.0`. Veja [LICENSE](LICENSE) para mais informações..
 
-## Acknowledgments
+## Agradecimentos
 
 - [CoquiTTS](https://github.com/coqui-ai/TTS)
 - [gpt4free](https://github.com/xtekky/gpt4free)
 
-## Disclaimer
+## Aviso Legal
 
-This project is for educational purposes only. The author will not be responsible for any misuse of the information provided. All the information on this website is published in good faith and for general information purpose only. The author does not make any warranties about the completeness, reliability, and accuracy of this information. Any action you take upon the information you find on this website (FujiwaraChoki/MoneyPrinterV2), is strictly at your own risk. The author will not be liable for any losses and/or damages in connection with the use of our website.
+Este projeto é apenas para fins educacionais. O autor não será responsável por qualquer uso indevido das informações fornecidas. Todas as informações neste site são publicadas de boa-fé e apenas para fins de informação geral. O autor não oferece garantias sobre a integridade, confiabilidade e precisão dessas informações. Qualquer ação que você tomar com base nas informações encontradas neste site (FujiwaraChoki/MoneyPrinterV2) é estritamente por sua conta e risco. O autor não será responsável por quaisquer perdas e/ou danos relacionados ao uso do nosso site.
